@@ -1,0 +1,9 @@
+.publicidad-image {
+    max-width: 100%;
+    max-height: 200px; /* Ajusta esta altura según sea necesario */
+    object-fit: cover; /* Mantiene la proporción de la imagen */
+  }
+/* .row{
+    display: flex;
+    justify-content: center;
+}   */

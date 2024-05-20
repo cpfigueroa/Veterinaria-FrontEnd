@@ -1,0 +1,13 @@
+.nosotros-container {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .titulo-destacado {
+    font-size: 8em; /* Tamaño del título destacado */
+    margin-bottom: 20px; /* Espacio entre el título y el contenido */
+  }
+  
+  .contenido {
+    font-size: 5em; /* Tamaño del texto */
+  }

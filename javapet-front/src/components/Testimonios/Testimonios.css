@@ -1,0 +1,37 @@
+.testimonios-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden; /* Esto evitará el desplazamiento horizontal */
+
+      }
+/* 
+      .testimonio {
+        max-width: 400px; 
+        max-height: 400px; 
+        overflow: auto; 
+      } */
+      .img-container {
+        padding: 12px;
+        margin: 0;
+
+      }
+      .img-container p{
+text-align: center;  padding: 0;    }
+
+.img-container img {
+    border-radius: 50%;
+}
+
+     /* Media query para pantallas de 600px o menos */
+@media (max-width: 600px) {
+    .img-container p {
+      padding-left: 15px; 
+    }
+  }
+  
+      
+  
+      
+      
+  

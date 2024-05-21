@@ -1,4 +1,7 @@
-import React from 'react'
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+import "./Contacto.css"
+
 
 const Contacto = () => {
     return (
@@ -48,7 +51,7 @@ const Contacto = () => {
             </div>
     
             <div className='col-lg-6 col-md-12 text-center'>
-                <img className='img-fluid rounded' src="./public/perrito.jpg" alt="Perrito" />
+                <img className='img-fluid rounded' src='../../assets/perrito3.jpg' alt="Perrito" />
             </div>
         </div>
     </div>

@@ -3,31 +3,35 @@ import { Link } from 'react-router-dom';
 import Swal from 'sweetalert2';
 
 const InfoPaciente = ({ paciente, URLPacientes, getApiPacientes }) => {
-	const handleDelete = (id) => {
-		Swal.fire({
+	const handleDelete = async (id) => {
+		const result = await Swal.fire({
 			title: '¿Estás seguro de eliminar este paciente?',
 			text: '¡No puedes revertir esto!',
 			icon: 'warning',
 			showCancelButton: true,
 			confirmButtonText: 'Borrar',
-		}).then(async (result) => {
-			if (result.isConfirmed) {
-				try {
-					const res = await fetch(`${URLPacientes}/${id}`, {
-						method: 'DELETE',
-						headers: {
-							'Content-Type': 'application/json',
-						},
-					});
-					if (res.status === 200) {
-						Swal.fire('¡Borrado!', 'El paciente ha sido borrado.', 'success');
-						getApiPacientes();
-					}
-				} catch (error) {
-					console.log(error);
-				}
-			}
 		});
+
+		if (result.isConfirmed) {
+			try {
+				const res = await fetch(`${URLPacientes}/${id}`, {
+					method: 'DELETE',
+					headers: {
+						'Content-Type': 'application/json',
+					},
+				});
+
+				if (res.status === 200) {
+					Swal.fire('¡Borrado!', 'El paciente ha sido borrado.', 'success');
+					getApiPacientes();
+				} else {
+					throw new Error('Error al borrar el paciente');
+				}
+			} catch (error) {
+				Swal.fire('Error', 'Hubo un problema al borrar el paciente.', 'error');
+				console.log(error);
+			}
+		}
 	};
 
 	return (

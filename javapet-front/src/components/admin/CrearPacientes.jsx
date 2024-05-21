@@ -91,7 +91,9 @@ const CrearPaciente = ({ URLPacientes, getApiPacientes }) => {
 						if (res.status === 201) {
 							Swal.fire('Creado!', 'El paciente fue creado.', 'success');
 							getApiPacientes();
-							navigate('/Adm/pacientes');
+							navigate(
+								'/Veterinaria-FrontEnd/javapet-front/src/components/admin/AdminPacientes.jsx'
+							);
 						}
 					} catch (error) {
 						console.error(error);

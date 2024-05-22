@@ -25,7 +25,7 @@
 .img-container img {
     max-width: 100%; /* Establece el ancho máximo al 100% del contenedor */
     height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
-    width: 400px;
+    width: 300px;
     height: 200px;
     border-radius: 10%;
 }

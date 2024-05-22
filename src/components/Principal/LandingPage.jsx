@@ -30,14 +30,15 @@ const LandingPage = () => {
             <br />
             <br />
             <br />
+            <Veterinario />
+            <br />
+            <br />
             <Testimonios />
             <br />
             <br />
             <br />
             <br />
-            <Veterinario />
-            <br />
-            <br />
+            
             <Clima />
             
             

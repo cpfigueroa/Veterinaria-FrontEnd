@@ -1,7 +1,7 @@
 
 ### Nombre del Proyecto: "Veterinaria JavaPet"
 
-Esta página fue creada por un equipo de personas, alumnos de RollingCode, el objetivo fue realizar con un proyecto ficticio de una veterinaria, 
+Esta página fue creada por un equipo de personas, alumnos de RollingCode, el objetivo fue realizar una pagina ficticia de una veterinaria, 
 utilizando las herramientas aprendidas durante el curso de full stack.
 Se desarrolla un sistema de gestion de Veterinaria con pacientes, turnos y manejo de comentarios, todos mediante sus respectivos CRUD (Create, Read, Update, Delete). 
 Para acceder a dicho sistema se implemento un metodo de login para el administrador del sitio, el cual tiene total acceso y permisos.

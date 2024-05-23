@@ -26,7 +26,9 @@ Comandos
 - GitHub
 - VisualCode
 - Bootstrap
-- Taiga 
+- Taiga
+- Figma
+- Paint
 
 ## Librerias utilizadas
 

@@ -1,6 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import "./Contacto.css"
+import imgPerrito2 from "../../assets/perrito3.jpg"
 
 
 const Contacto = () => {
@@ -51,7 +52,7 @@ const Contacto = () => {
             </div>
     
             <div className='col-lg-6 col-md-12 text-center'>
-                <img className='img-fluid rounded' src='../../assets/perrito3.jpg' alt="Perrito" />
+                <img className='img-fluid rounded' src= {imgPerrito2} alt="Perrito" />
             </div>
         </div>
     </div>

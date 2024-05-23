@@ -1,14 +1,13 @@
 import React from 'react'
-import "./error404.css"
+import "./Error404.css"
 import { Link } from 'react-router-dom'
-
-
+import imgPerrito from "../../assets/perrito2.jpg"
 const error404 = () => {
   return (
                            
         <div className='imagen-container'>
             
-            <img src='../../assets/perrito2.jpg' alt="Perrito" />
+            <img src= {imgPerrito} alt="Perrito" />
 
             <div className='contenedorTexto'>
                 <div className='titulo'>

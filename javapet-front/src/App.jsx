@@ -6,6 +6,7 @@ import Contacto from './components/Contactanos/Contacto'
 import Error404 from './components/Error404/Error404'
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 

@@ -18,7 +18,7 @@ const Footer = () => {
 			<div className="container d-lg-flex  justify-content-lg-center my-4">
 				<div>
 					<Link to="*" className="mx-3 text-white text-decoration-none fs-6">
-						<FontAwesomeIcon icon={faWhatsapp}></FontAwesomeIcon> 3815578693
+						<FontAwesomeIcon icon={faWhatsapp}></FontAwesomeIcon> 38136357000
 					</Link>
 				</div>
 				<div>
@@ -27,7 +27,7 @@ const Footer = () => {
 						className="mx-3 text-white text-decoration-none fs-6"
 					>
 						<FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>{' '}
-						rollingvetproject@gmail.com
+						JavaVetproject@gmail.com
 					</Link>
 				</div>
 				<div>

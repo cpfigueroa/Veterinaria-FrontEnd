@@ -1,0 +1,72 @@
+.contenedorTexto {
+    
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+    
+    
+
+      
+  }
+  
+  .boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #03182b;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    
+  }
+ 
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .imagen-container{
+    padding: 0;
+    /* position: relative; */
+        
+  }
+
+  .imagen-container img {
+    /* width: 100vw; */
+    height: 100vh;
+    object-fit: cover;
+    position: relative;
+    margin: auto;
+    
+
+  }
+
+  .imagen-container::before{
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url("./public/perrito2.jpg");
+    background-size: cover;
+    filter: blur(20px);
+    position: absolute;
+    
+  }
+
+  .titulo h1 {
+
+    font-size: 75px;
+    
+  }

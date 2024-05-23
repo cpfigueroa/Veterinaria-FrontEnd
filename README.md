@@ -14,10 +14,7 @@ Comandos
 - Pagina nuestros servicios
 - Pagina contactanos
 - Pagina login
-- Planes
-###-   Pagina plan primeros pasos
-###-   Pagina plan madurando
--   Pagina plan adultos
+- Planes : Pagina plan primeros pasos - Pagina plan madurando - Pagina plan adultos
 - Pagina error404
 
 ## Herramientas Utilizadas:

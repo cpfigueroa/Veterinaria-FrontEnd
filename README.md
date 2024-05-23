@@ -41,4 +41,10 @@ Comandos
 - npm install react-router-dom
 - npm install react-router-dom@latest
 
+  ## Videos sobre el trabajo realizado
+  - Pagina Principal :
+[Video Pagina Principal](https://youtu.be/bCk5Yqvvips)
+
+  
+
 ## 

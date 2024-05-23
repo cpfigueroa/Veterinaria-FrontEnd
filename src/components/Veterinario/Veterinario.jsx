@@ -7,7 +7,7 @@ import veterinario3 from "../../assets/veterinario3.png";
 export const Veterinario = () => {
     return (
         <div className="veterinario-container d-flex flex-column justify-content-center align-items-center">
-            <h2 className="veterinario-title">Profesionales de Primer Nivel</h2>
+            <h2 className="veterinario-title">Nuestros Profesionales</h2>
             <div className="row">
                 <div className="col-12 col-lg-4 d-flex flex-column justify-content-center align-items-center img-container">
                     <img src={veterinario1} alt="Alejo"  />

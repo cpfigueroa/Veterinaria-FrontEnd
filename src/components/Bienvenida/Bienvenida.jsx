@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import './Bienvenida.css';
-import imagen1 from '../../assets/fondoperritos.png'; // Reemplaza con la ruta correcta
+import imagen1 from '../../assets/fondoperritos.jpg'; // Reemplaza con la ruta correcta
 import imagen2 from '../../assets/fondo1.jpg'; // Reemplaza con la ruta correcta
 import imagen3 from '../../assets/fondo2.jpg';   // Reemplaza con la ruta correcta
+import imagen4 from '../../assets/fondo.png';   // Reemplaza con la ruta correcta
 
 
 const Bienvenida = () => {
-  const images = [imagen1, imagen2, imagen3];
+  const images = [imagen1, imagen2, imagen3,imagen4];
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {

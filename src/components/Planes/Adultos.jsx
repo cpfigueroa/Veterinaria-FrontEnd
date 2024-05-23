@@ -1,8 +1,9 @@
 import React, { useRef, useState, useEffect } from 'react';
-import Swal from 'sweetalert2';
-import emailjs from '@emailjs/browser';
+import emailjs from 'emailjs-com';
+
 import { useNavigate } from 'react-router-dom';
 import { Form } from 'react-bootstrap';
+import Swal from 'sweetalert2';
 
 const Adultos = () => {
 	const navigate = useNavigate();

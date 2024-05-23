@@ -1,47 +1,130 @@
-.veterinario-title {
-  font-family: 'Poppins', sans-serif;
-  font-size: 48px;
-  font-weight: 600;
-  text-align: center;
-  margin-bottom: 20px;
-  color: purple; /* O puedes usar #800080 para un morado específico */
-}
-.veterinario-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow-x: hidden; /* Esto evitará el desplazamiento horizontal */
-    .img-container {
-      padding: 12px;
-      margin: 0;
-      max-width: 100%; /* Establece el ancho máximo al 100% del contenedor */
-  }
-  .img-container {
-    padding: 12px;
-    margin: 0;
-    max-width: 100%; /* Establece el ancho máximo al 100% del contenedor */
+.veterinario-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
-.img-container img {
-    max-width: 100%; /* Establece el ancho máximo al 100% del contenedor */
-    height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
-    width: 300px;
-    height: 200px;
-    border-radius: 10%;
+#veterinario-title {
+	text-align: center;
+	font-size: 25px;
+	font-weight: 100;
+	padding-bottom: 25px;
 }
-     
-@media (max-width: 600px) {
-    .img-container p {
-      padding-left: 15px; 
-    }
-    .img-container img {
-      width: 200px; /* Establece el ancho deseado */
-      height: 150px; /* Establece la altura deseada */
+
+.veterinario-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.cardv {
+	width: 200px; /* Define el ancho deseado de cada tarjeta */
+	height: 200px; /* Define la altura deseada de cada tarjeta */
+	margin: 10px;
+	background-color: #f0f0f0;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+#card1v,
+#card2v,
+#card3v,
+#card4v {
+	background-size: cover;
+	background-position: center;
+	width: 200px; /* Ancho de cada tarjeta */
+	height: 200px; /* Altura de cada tarjeta */
+	border: none;
+}
+#card1v {
+	background-image: url('../assets/veterinario1.jpg');
+	background-size: cover;
+	background-position: center;
+	/* width: 768px;
+  height: 528px; */
+}
+#card2v {
+	background-image: url('../assets/veterinario2.jpg');
+	background-size: cover;
+	background-position: center;
+	/* width: 768px;
+  height: 528px; */
+}
+#card3v {
+	background-image: url('../assets/veterinario4.jpg');
+	background-size: cover;
+	background-position: center;
+	/* width: 768px;
+  height: 528px; */
+}
+#card4v {
+	background-image: url('../assets/veterinario5.jpg');
+	background-size: cover;
+	background-position: center;
+	/* width: 768px;
+  height: 528px; */
+}
+
+.cardv:hover {
+	transform: scale(1.05);
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 768px) {
+	.veterinario-container {
+		flex-wrap: wrap;
+		margin-bottom: 100px;
+	}
+	#card1v,
+	#card2v,
+	#card3v,
+	#card4v {
+		width: 400px;
+		height: 400px;
+	}
+}
+
+/* .veterinario-title {
+	font-family: 'Poppins', sans-serif;
+	font-size: 48px;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 20px;
+	color: purple; 
   }
+  .veterinario-container {
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  overflow-x: hidden; 
+	  .img-container {
+		padding: 12px;
+		margin: 0;
+		max-width: 100%; 
+	}
+	.img-container {
+	  padding: 12px;
+	  margin: 0;
+	  max-width: 100%; 
   }
   
-      
-  
-      
-      
-  
+  .img-container img {
+	  max-width: 100%; 
+	  height: auto; 
+	  width: 300px;
+	  height: 200px;
+	  border-radius: 10%;
+  }
+	   
+  @media (max-width: 600px) {
+	  .img-container p {
+		padding-left: 15px; 
+	  }
+	  .img-container img {
+		width: 200px; 
+		height: 150px;
+	}
+	}
+} */

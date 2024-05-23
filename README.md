@@ -15,8 +15,8 @@ Comandos
 - Pagina contactanos
 - Pagina login
 - Planes
--   Pagina plan primeros pasos
--   Pagina plan madurando
+###-   Pagina plan primeros pasos
+###-   Pagina plan madurando
 -   Pagina plan adultos
 - Pagina error404
 

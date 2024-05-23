@@ -1,5 +1,5 @@
-
-### Nombre del Proyecto: "Veterinaria JavaPet"
+# ROLLINGCODE SCHOOL - PROYECTO FINAL CURSO FULLSTACK
+## Nombre del Proyecto: "Veterinaria JavaPet"
 
 Esta página fue creada por un equipo de personas, alumnos de RollingCode, el objetivo fue realizar una pagina ficticia de una veterinaria, 
 utilizando las herramientas aprendidas durante el curso de full stack.

@@ -13,18 +13,18 @@ const Footer = () => {
   return (
     <div className="container-fluid bg-celeste  mb-0 mt-5 py-3 text-white text-center">
       <div className="container">
-        <img src={logo} alt="Logo JavaPet" width="150" height="50" />
+        <img src={logo} alt="Logo JavaPet" width="80" height="50" />
       </div>
       <div className="container d-lg-flex  justify-content-lg-center my-4">
         <div>
           <Link to="*" className="mx-3 text-white text-decoration-none fs-6">
-            <FontAwesomeIcon icon={faWhatsapp}></FontAwesomeIcon> 3815578693
+            <FontAwesomeIcon icon={faWhatsapp}></FontAwesomeIcon> 381560312
           </Link>
         </div>
         <div>
           <Link to="/Contactanos" className="mx-3 text-white text-decoration-none fs-6">
             <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>{" "}
-            rollingvetproject@gmail.com
+            javapet@gmail.com
           </Link>
         </div>
         <div>

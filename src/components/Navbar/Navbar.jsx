@@ -1,5 +1,5 @@
 import React from "react";
-import "../App.css";
+import "../Navbar/Navbar.css";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import logo from "../../assets/Logo.png";
 import { Link, useNavigate } from "react-router-dom";
@@ -23,7 +23,7 @@ const NavBar = () => {
             {" "}
             <img
               src={logo}
-              width="150"
+              width="80"
               height="50"
               className="d-inline-block align-top"
               alt="Logo Rolling Vet"
@@ -71,7 +71,7 @@ const NavBar = () => {
                   <Link to="/Contactanos" className="nav-link text-white">
                     Contactanos
                   </Link>
-                  <Link to="/Login" className="nav-link text-white">Login
+                  <Link to="/Login" className="nav-link text-white">Inicio Sesion
                   </Link>                  
                 </>
               )}
